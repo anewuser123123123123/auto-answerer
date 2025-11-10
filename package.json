@@ -1,0 +1,24 @@
+{
+  "name": "auto-answerer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsdom": "^27.1.0"
+  },
+  "pkg": {
+    "assets": "views/**/*",
+    "targets": [ "latest-windows-x64" ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
