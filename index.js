@@ -75,6 +75,7 @@ let bodyPrefix2 = await fetchTextAndParseNextBodyPrefix(fetch("https://forms.mkr
     "credentials": "include"
 }));
 
+overallTimer -= delay1
 let delay2 = overallTimer + Math.random() * 2
 console.log(`Ждём ${delay2} секунд перед отправкой ответов следующей страницы`)
 await wait(delay2)
